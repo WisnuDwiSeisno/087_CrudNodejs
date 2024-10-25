@@ -9,6 +9,7 @@ import motoRoute from "./routes/motor.js"
 const app = express();
 const PORT = 8000;
 
+// Objek
 app.use("/mobil", mobilRoute);
 app.use("/mahasiswa", mahaRoute);
 app.use("/motor", motoRoute);
