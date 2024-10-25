@@ -2,6 +2,7 @@ import express from "express";
 import bodyParser from "body-parser"
 import mobilRoute from "./routes/mobil.js"
 import mahaRoute from "./routes/mahasiswa.js"
+import motoRoute from "./routes/motor.js"
 
 
 
@@ -10,6 +11,7 @@ const PORT = 8000;
 
 app.use("/mobil", mobilRoute);
 app.use("/mahasiswa", mahaRoute);
+app.use("/motor", motoRoute);
 app.get("/", (req, res) => {
     console.log(["GET ROUTE"]);
     res.send("Selamat Pagi");
