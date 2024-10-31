@@ -6,7 +6,7 @@
   "name": "play_http",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "devDependencies": {
     "@types/express": "^5.0.0"
   },
